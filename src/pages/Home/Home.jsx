@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Navbar from "../../components/posts/Navbar";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [categories, setCategories] = useState({});
@@ -75,7 +76,7 @@ const Home = () => {
 
                   <div className="badge category-badge">{post.category}</div>
 
-                  <a href={`/post/${post.file}`} className="stretched-link"></a>
+                  <Link to={`/post/${post.file}`} className="stretched-link"></Link>
                 </div>
               </div>
             </div>
