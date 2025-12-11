@@ -1,7 +1,7 @@
 import React from "react";
 import "./AxiosVsFetch.css";
 import Navbar from "../Navbar";
-import { Link, Links } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const AxiosVsFetch = () => {
   return (
