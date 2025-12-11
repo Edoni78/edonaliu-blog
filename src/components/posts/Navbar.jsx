@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
           <header className="py-4 header-bar">
             <div className="container d-flex flex-wrap justify-content-between align-items-center">
-              <Link to="/" className="fs-3 m-0 blog-title">Edon’s Tech Blog</Link>
+              <Link to="/" className="fs-3 m-0 blog-title">Edon’s Tech Blog Test</Link>
     
               <div className="d-flex align-items-center gap-2 seperate">
                 <span>by</span>
