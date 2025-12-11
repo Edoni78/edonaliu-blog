@@ -12,6 +12,8 @@ const Home = () => {
       FrontEnd: [
         { file: "firstpost", title: "My First Blog Post", desc: "Why I started with React + .NET" },
         { file: "secondpost", title: "My Second Blog Post", desc: "Clean architecture journey" },
+        { file: "axiosvsfetch", title: "Axios vs Fetch", desc: "What’s the Difference and Which One Should You Use?" },
+        { file: "axiosinterceptorspost", title: "Axios Interceptors", desc: " Understanding Axios Interceptors" },
       ],
       Backend: [
        
