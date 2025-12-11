@@ -1,0 +1,65 @@
+Code block styling
+pre {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333 !important;
+  padding: 16px !important;
+  overflow-x: auto;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+code {
+  font-family: Consolas, monospace !important;
+  font-size: 15px;
+  color: #d4d4d4 !important;
+  white-space: pre;
+  display: block;
+}
+
+/* Syntax coloring */
+.token-keyword {
+  color: #569cd6;
+}
+.token-string {
+  color: #ce9178;
+}
+.token-function {
+  color: #dcdcaa;
+}
+.token-classname {
+  color: #4ec9b0;
+}
+.token-attrname {
+  color: #9cdcfe;
+}
+.token-punctuation {
+  color: #d4d4d4;
+}
+.token-number {
+  color: #b5cea8;
+}
+
+/* Profile image */
+.profile-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* "by" text */
+.seperate span {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-right: 5px;
+}
+
+/* Page background */
+.post-page {
+  background-color: var(--backGroundColor);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

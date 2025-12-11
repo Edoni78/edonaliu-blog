@@ -1,0 +1,109 @@
+/* ====== THEME ====== */
+:root {
+  --backGroundColor: #050814; /* main background */
+  --primaryColor: #4da3ff;    /* accent */
+  --cardColor: #0c1224;       /* card color */
+  --textColor: #d0d8ff;
+}
+
+.home-background {
+  background-color: var(--backGroundColor);
+  color: var(--textColor);
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header-bar {
+  background-color: var(--backGroundColor) !important;
+  border-bottom: 1px solid var(--primaryColor);
+}
+
+.blog-title {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+a{
+  text-decoration: none !important;
+}
+
+.profile-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid var(--primaryColor);
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(77, 163, 255, 0.4);
+}
+
+.seperate span {
+  color: var(--textColor);
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* SECTION TITLES */
+.section-title {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+
+/* DROPDOWN */
+.category-dropdown {
+  background-color: var(--cardColor) !important;
+  color: white !important;
+  border: 1px solid var(--primaryColor);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.category-dropdown option {
+  background-color: var(--cardColor);
+  color: white;
+}
+
+.category-dropdown:focus {
+  border-color: var(--primaryColor);
+  box-shadow: 0 0 7px var(--primaryColor);
+}
+
+/* POST CARDS */
+.post-card {
+  background-color: var(--backGroundColor) !important;
+  border: 1px solid rgba(77, 163, 255, 0.3);
+  border-radius: 14px;
+  padding: 18px;
+  transition: 0.25s ease-in-out;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+   border-color: var(--primaryColor) !important;
+}
+
+.post-card:hover {
+  background-color: #0f1730;
+  border-color: var(--primaryColor);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.9);
+}
+
+.post-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.post-desc {
+  color: #b9c6ff;
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 18px;
+}
+
+.category-badge {
+  background-color: rgba(77, 163, 255, 0.18);
+  color: var(--primaryColor);
+  padding: 5px 12px;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-top: auto;
+}
