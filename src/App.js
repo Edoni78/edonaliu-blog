@@ -5,6 +5,7 @@ import SecondPost from "./components/posts/SecondPost/SecondPost";
 import HttpVsHttps from "./components/posts/HttpVsHttps/HttpVsHttps";
 import AxiosVsFetch from "./components/posts/AxiosVsFetch/AxiosVsFetch";
 import AxiosInterceptorsPost from "./components/posts/AxiosInterceptorsPost/AxiosInterceptorsPost";
+import ReactCrud from "./components/posts/ReactCrud/ReactCrud";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/post/httpvshttps" element={<HttpVsHttps />} />
           <Route path="/post/axiosvsfetch" element={<AxiosVsFetch />} />
           <Route path="/post/AxiosInterceptorsPost" element={<AxiosInterceptorsPost />} />
+          <Route path="/post/ReactCrud" element={<ReactCrud />} />
 
         </Routes>
       </div>
