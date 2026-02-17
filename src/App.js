@@ -18,7 +18,7 @@ function App() {
           <Route path="/post/secondpost" element={<SecondPost />} />
           <Route path="/post/httpvshttps" element={<HttpVsHttps />} />
           <Route path="/post/axiosvsfetch" element={<AxiosVsFetch />} />
-          <Route path="/post/AxiosInterceptorsPost" element={<AxiosInterceptorsPost />} />
+          <Route path="/post/axiosinterceptorspost" element={<AxiosInterceptorsPost />} />
           <Route path="/post/ReactCrud" element={<ReactCrud />} />
 
         </Routes>
